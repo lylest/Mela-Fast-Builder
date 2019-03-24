@@ -1,0 +1,511 @@
+
+/*reset browser deafults*/
+  * {
+    padding: 0px;
+    margin:0px
+
+  }
+/* end reset browser deafults*/
+
+ /* styles for naviagtion bar*/
+
+ nav {
+
+   width:100%;
+   height:66px;
+   box-shadow: 0px 0px 1px 1px #ccc;
+
+ }
+
+ .nav {
+
+    width:100%;
+    height:66px;
+    box-shadow: 0px 0px 1px 1px #ccc;
+
+  }
+
+  #nav{
+
+    width:100%;
+    height:66px;
+    box-shadow: 0px 0px 1px 1px #ccc;
+
+  }
+
+ /* end of styles for naviagtion bar*/
+
+
+ /* contents styles for naviagtion bar*/
+ nav ul li {
+     display: inline-block;
+     padding: 12px;
+ }
+
+ nav ul li a {
+
+     text-decoration: none;
+     color: #333;
+     line-height: 44px;
+     font-size: 0px;
+
+ }
+
+ #nav ul li {
+     display: inline-block;
+     padding: 12px;
+ }
+
+
+ .nav ul li a {
+
+     text-decoration: none;
+     color: #333;
+     line-height: 44px;
+
+ }
+
+.websitename {
+
+     font-size: 20px;
+}
+
+.link {
+   text-decoration: none;
+   font-size:16px;
+   color: #333;
+   margin: 8px 0px 0px 10px;
+}
+
+.h1{
+  
+   color: #333;
+   padding: 9px;
+
+}
+
+.para{
+   font-size: 17px;
+   padding: 10px;
+
+}
+
+.white-box {
+
+   width:100%;
+   height: auto;
+   background-color: #fff;
+   max-height:auto;
+
+}
+
+.menu-button {
+
+    float: right;
+    width: 60px;
+    height: 25px;
+    padding-top: 2px;
+    border:0px;
+    font-size: 14px;
+    outline:none;
+    border-color: #eee;
+    margin: -52px 20px 0px 0px;
+
+}
+  /* end of styles for  contents for naviagtion bar*/
+
+
+
+/*sider-menu styles*/
+
+#sider-menu   {
+
+  width:270px;
+  height:240px;
+  background-color: #eee;
+  position: absolute;
+  right: 0;
+  margin: 4px 7px 0px 0px;
+  z-index: 3;
+  display: none;
+
+}
+
+
+/* HACK: close-button" */
+
+.close-button{
+   width:20px;
+   height:20px;
+   outline: none;
+   float: right;
+   margin: 8px;
+   border:0px;
+}
+
+
+/* HACK: end of close butoon */
+
+/* HACK: ul for sider Menu */
+#sider-menu  ul li {
+
+    list-style-type: none;
+    padding: 4px 0px 0px 10px;
+}
+
+#sider-menu  ul li a{
+
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+
+
+/* end of sider-menu styles*/
+
+
+
+/* HACK: Twin boxes styles */
+
+  #twin-box {
+      width: 100%;
+      height: auto;
+  }
+
+  #box-one {
+      width:99%;
+      height:auto; /* HACK: must be changed to auto so as to fit needs */
+      background-color: #eee;
+      margin:7px 0px 0px 9px;
+  }
+
+  #box-two {
+
+      width:99%;
+      height:auto; /* HACK: must be changed to auto so as to fit needs */
+      background-color: #eee;
+      margin:7px 0px 0px 9px;
+  }
+
+
+/* HACK: end of twin boxes */
+
+
+
+
+/* HACK: ITEMS BOX  */
+
+#items-box {
+
+   width: 100%;
+   height:auto;
+   display: inline-flex;
+   flex-wrap: wrap;
+
+}
+
+#item1  {
+   width:270px;
+   height:270px;
+   background-color: #eee;
+   margin: 0 auto;
+   margin-top: 10px;
+}
+
+
+ /* HACK: END OF ITEMS BOX */
+
+
+
+/* HACK: FILE INPUT */
+
+#file-text {
+
+  width: 200px;
+  height: 30px;
+  border:0px;
+  outline: none;
+  box-shadow: 0px 0px 1px 1px #ccc;
+  font-size: 14px;
+  padding: 3px 0px 0px 7px;
+  margin:30px;
+
+
+}
+
+#file-password{
+
+  width: 200px;
+  height: 30px;
+  border:0px;
+  outline: none;
+  box-shadow: 0px 0px 1px 1px #ccc;
+  font-size: 14px;
+  padding: 3px 0px 0px 7px;
+  margin:30px;
+
+
+}
+
+
+ /* IDEA: end of file input */
+
+
+/* HACK: PROGRESS BAR */
+
+#uploader {
+    width: 280px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 5px;
+    border-left: 8px solid #333;
+    background-color:#eee;
+    box-shadow: 0px 0px 1px px #ccc;
+
+}
+#uploader button{
+   float: right;
+   margin: 8px;
+   width: 17px;
+   height: 17px;
+   border:0px;
+   color: #000;
+   background-color: #eee;
+   outline: none;
+
+}
+
+#uploader p{
+   font-size: 14px;
+   font-weight: bold;
+   padding: 3px 0px 0px 20px;
+}
+
+#loader{
+  width:200px;
+  height:16px;
+  margin-left:20px;
+  border:1px solid #333;
+}
+#actloader{
+ height:16px;
+ color: #fff;
+  background-color:#333;
+}
+#actloader p{
+   color:#fff;
+   text-align: center;
+   font-size: 12px;
+}
+
+
+
+
+/* HACK: END OF PROGRESS BAR */
+
+
+
+
+/* HACK: ROUND USER PROFILE */
+
+  #round-user  {
+
+     width:90px;
+     height: 90px;
+     margin: 20px;
+     border-radius: 46px;
+     background-color: #eee;
+
+  }
+
+  #round-user img{
+     width:60px;
+     height:60px;
+     margin: 6px 0px 0px 14px;
+  }
+
+/* HACK: ENd of ROUND USER PROFILE */
+
+
+
+/* HACK: BIG BOX */
+
+   #bigbox {
+
+      width: 300px;
+      height: 300px;
+      border:1px solid #ccc;
+      background-color: #ccc;
+      margin:0 auto;
+   }
+
+/* HACK: END BIG BOX */
+
+
+
+/*MELA BASIC*/
+
+#mela-basic{
+   width: 100%;
+   height: auto;
+}
+
+#banner {
+   width: 100%;
+   height:300px;
+   margin-top: 10px;
+   background-color: #ccc;
+}
+
+#two-side {
+
+  width: 80%;
+  height:auto;
+  margin: 0 auto;
+  margin-top: 17px;
+  background-color: #eee;
+}
+
+.side-bar {
+
+   width:100%;
+   height:auto;
+   display: inline-flex;
+   flex-wrap: wrap;
+
+}
+
+.side-one, .side-two {
+
+   width:300px;
+   height:300px;
+   margin:0 auto;
+   margin-top: 20px;
+   background-color:#fff;
+
+}
+
+.side-two {
+
+   width:300px;
+   height:300px;
+   margin: 0 auto;
+   margin-top: 20px;
+   background-color:#fff;
+
+}
+
+/*END OF MELA BASIC*/
+
+/*INFO BAR--*/
+
+
+
+/* END OF INF0 BAR */
+
+ #info-bar {
+   width: 280px;
+   height: 100px;
+   display: inline-flex;
+   margin:20px;
+ }
+
+#bar-one{
+  width: 100px;
+  height: 100px;
+  background-color: #f8f8f8;
+  margin-right: 1px solid #fff;
+}
+
+#bar-one img {
+    width:100%;
+    height:auto;
+}
+
+#bar-two{
+   width:180px;
+   height: 100px;
+   background-color: #eee;
+}
+
+#bar-two p{
+  
+   font-size: 14px;
+   font-weight: bold;
+   padding: 12px;
+
+}
+
+/* RESPONSIVENESS FOR BIG SCREEN x-x-x-x-x-x-x-xx-xx-x-x-x-x-x-x-*/
+
+@media (min-width:800px) {
+
+
+
+    #twin-box {
+
+        display: inline-flex;
+    }
+
+    #box-one {
+        width:28%;
+        height:auto; /* HACK: must be changed to auto so as to fit needs */
+        background-color: #eee;
+        margin:7px 0px 0px 9px;
+    }
+
+    #box-two {
+
+        width:70%;
+        height:auto; /* HACK: must be changed to auto so as to fit needs */
+        background-color: #f8f8f8;
+        margin:7px 0px 0px 0px;
+    }
+
+     nav ul li a {
+
+       text-decoration: none;
+      color: #333;
+      line-height: 44px;
+      font-size: 17px;
+
+  }
+
+  #nav ul li {
+      display: inline-block;
+      padding: 12px;
+  }
+
+
+  .nav ul li a {
+
+      line-height: 44px;
+      font-size: 16px;
+
+  }
+
+  .websitename {
+
+      font-size: 20px;
+  }
+
+
+  .menu-button {
+
+     float: right;
+     width: 60px;
+     height: 25px;
+     padding-top: 2px;
+     border:0px;
+     font-size: 14px;
+     outline:none;
+     border-color: #eee;
+     margin: -40px 20px 0px 0px;
+
+  }
+   /* end of styles for  contents for naviagtion bar*/
+
+
+}
